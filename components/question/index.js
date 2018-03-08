@@ -13,8 +13,8 @@ class App2salesQuestion extends Component {
     super(props);
     this.state = {
       visible: true,
-      baseUrl: 'https://us-central1-app2sales-feedback-system.cloudfunctions.net',
-      firebaseProject: 'com.eduzzmobile.mobile',
+      baseUrl: '',
+      firebaseProject: '',
       response: null,
       rating: 0,
       questionVisibile: true,
